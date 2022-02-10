@@ -3,7 +3,7 @@
 ## Project structure
 
 - README.md
-- android.html
+- index.html
 - assets/
 
   - img/
