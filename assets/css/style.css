@@ -186,19 +186,23 @@ aside > ul {
 
 footer {
   background-color: var(--cor5);
-  color: white;
+  padding: 15px;
+}
+
+.redesSociais__lista {
   text-align: center;
-  font-size: 0.8em;
+}
+
+.redesSociais__lista__item {
+  display: inline-block;
+  margin: 0px 10px;
+}
+.redesSociais__lista__item img {
+  width: 100%;
+  max-width: 20px;
+}
+
+.redesSociais__lista__item:hover {
+  background-color: #031d0fb0;
   padding: 5px;
-}
-
-footer a {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-  color: var(--cor1);
 }
